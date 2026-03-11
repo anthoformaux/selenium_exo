@@ -28,8 +28,13 @@ def lancement_exemple():
         assert driver.current_url == "https://example.com/", f"URL incorrect : {driver.current_url}"
         print(f"Url vérifié: {driver.current_url}")
 
+    except AssertionError as e:
+        print(f"Erreur d'assertion: {e}")
+
     except Exception as e:
-        print(f"Erreur : {e}")
+        print(f"Erreur: {e}")
+
+
     finally:
         driver.quit()
 
