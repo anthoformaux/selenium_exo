@@ -20,10 +20,10 @@ def lancement_exemple():
         assert driver.title == "Example Domain", f"Titre incorrect : {driver.title}"
         print(f"Titre vérifié : {driver.title}")
 
-        heading = driver.find_element(By.TAG_NAME, "body")
+        body = driver.find_element(By.TAG_NAME, "body")
 
-        assert "Example Domain" in heading.text, "Texte non trouvé dans le titre"
-        print(f"Contenu vérifié : {heading.text}")
+        assert "Example Domain" in body.text, "Texte non trouvé dans le titre"
+        print(f"Contenu vérifié : {body.text}")
 
         assert driver.current_url == "https://example.com/", f"URL incorrect : {driver.current_url}"
         print(f"Url vérifié: {driver.current_url}")
