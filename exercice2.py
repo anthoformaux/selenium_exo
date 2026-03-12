@@ -29,18 +29,23 @@ def test_tag():
 
         a_type = element.get_attribute("href")
         assert a_type.startswith("http"), f"href invalide:{a_type}"
+        assert a_type is not None and len()>0, f"Le lien est vide : {a_type}"
         print("Le lien est valide")
         assert a_type == "https://iana.org/domains/example", f"Le lien n'est pas correct : {a_type}"
         print(f"Attribut href vérifié : {a_type}")
+
+        return True
 
 
 
 
     except AssertionError as e:
         print(f"Erreur d'assertion: {e}")
+        return False
 
     except Exception as e:
         print(f"Erreur: {e}")
+        return False
 
     finally:
         driver.quit()
