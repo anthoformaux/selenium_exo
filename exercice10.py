@@ -33,13 +33,23 @@ def test_boucle():
                 "details": text_values,
             })
 
-        #### liste des 5 premiers
-        for product in products[:5]:
-            print (product)
+        def print_products(product_list):
 
-        #### liste complète
-        for product in products:
-            print (product)
+            for p in product_list:
+                print(f"{p['index']}. {p['name']}")
+                print(f"    Prix : {p['details']}")
+                print("-"*50)
+
+        # 5 premiers
+        print("Liste 5 premiers")
+        print_products(products[:5])
+
+        print("-"*50)
+
+        # liste complète
+        print("Liste complète")
+        print_products(products)
+
 
     except AssertionError as e:
         print(f"Erreur d'assertion: {e}")
