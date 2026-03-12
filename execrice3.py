@@ -17,7 +17,14 @@ def input_text():
         driver.get("https://demoqa.com/text-box/")
         fullname_field = driver.find_element(By.ID, "userName")
         email_field = driver.find_element(By.ID,"userEmail")
-        current_adress_field = driver.find_element(By.ID,"currentAddress")
+        current_adress_field = driver.find_element(By.XPATH,"//textarea[@id = 'currentAddress' and @class = 'form-control' ]")
+
+        lien = driver.find_element(By.TAG_NAME,"a")
+        lien_type = lien.get_attribute("href")
+        assert lien_type in "https://demoqa.com/text-box/", f"le lien est mauvais: {lien_type}"
+        #assert lien_type is not None and len() > 0, "Le lien est vide"
+        print(f"Le lien est corret: {lien_type}")
+
 
         fullname_field.send_keys('John Doe')
         email_field.send_keys('john@example.com')
@@ -38,6 +45,8 @@ def input_text():
 
         print(f"Résultat vérifié: {output_text}")
 
+        return True
+
     except AssertionError as e:
         print(f"Erreur d'assertion: {e}")
         return False
@@ -52,3 +61,9 @@ def input_text():
 
 if __name__ == "__main__":
     input_text()
+
+
+
+
+
+
