@@ -45,14 +45,14 @@ def main():
 
         ###Prix moyen des livres
         prix_moyen = sum(float(book['price'][1:]) for book in books) / books_number
-        print(f"Prix moyen = {prix_moyen} €")
+        print(f"Prix moyen = {prix_moyen:.2f} €")
 
         ###Prix minimum et maximum
         prix_min = min(float(book['price'][1:]) for book in books)
-        print(f"Prix minimum = {prix_min} €")
+        print(f"Prix minimum = {prix_min:.2f} €")
 
         prix_max = max(float(book['price'][1:]) for book in books)
-        print(f"Prix maximum = {prix_max} €")
+        print(f"Prix maximum = {prix_max:.2f} €")
 
         ### quantité de livre avec chaque notation
         notations = {}
