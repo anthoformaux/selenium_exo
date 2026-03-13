@@ -21,6 +21,7 @@ def test_boucle():
             EC.presence_of_all_elements_located((By.XPATH, "//a[@class = 'card']"))
         )
         card_product = driver.find_elements(By.XPATH, "//a[@class = 'card']")
+        
         products = []
         for index, card in enumerate(card_product, start=1):
             name = card.find_element(By.XPATH, ".//*[contains(@class, 'card-title')]").text.strip()
@@ -49,6 +50,8 @@ def test_boucle():
         # liste complète
         print("Liste complète")
         print_products(products)
+
+        
 
 
     except AssertionError as e:
