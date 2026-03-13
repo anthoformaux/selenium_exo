@@ -8,11 +8,11 @@ from selenium.webdriver.chrome.options import Options
 
 class BookPage:
     URL = "https://books.toscrape.com/"
-    BOOKS = "//article[@class='product_pod']"
-    TITRE = ".//h3/a"
-    PRIX = ".//p[@class='price_color']"
-    NOTATION = ".//p[contains(@class,'star')]"
-    STOCK = ".//p[@class = 'instock availability']"
+    BOOKS = (By.XPATH, "//article[@class='product_pod']")
+    TITRE = (By.XPATH, ".//h3/a")
+    PRIX = (By.XPATH, ".//p[@class='price_color']")
+    NOTATION = (By.XPATH, ".//p[contains(@class,'star')]")
+    STOCK = (By.XPATH, ".//p[@class = 'instock availability']")
 
 
     def __init__(self,driver,timeout=10):
@@ -24,28 +24,31 @@ class BookPage:
         print(f"La page {self.URL} s'est ouverte")
 
     def wait_page_load(self):
-        self.wait.until(EC.presence_of_all_elements_located((By.XPATH, self.BOOKS)))
+        self.wait.until(EC.presence_of_all_elements_located(*self.BOOKS))
         print(f"Les livres de la page sont bien tous chargés")
 
     def get_books(self):
-        return self.driver.find_elements(By.XPATH, self.BOOKS)
+        return self.driver.find_elements(*self.BOOKS)
 
     def books_information(self):
         products = []
-        books = self.driver.find_elements(By.XPATH, self.BOOKS)
+        books = self.get_books()
         for index, book in enumerate(books):
-            titre = book.find_element(By.XPATH,self.TITRE).get_attribute("title").strip()
-            prix = book.find_element(By.XPATH,self.PRIX).text.strip()
-            score = book.find_element(By.XPATH,self.NOTATION).get_attribute("class").split()[-1].strip()
-            stock = book.find_element(By.XPATH,self.STOCK).text.strip()
-        
-            products.append({
-                "index": index,
-                "title": titre,
-                "price": prix,
-                "rating": score,
-                "stock": stock
-            })
+            try:
+                title = book.find_element(*self.TITRE).get_attribute("title").strip()
+                price = book.find_element(*self.PRIX).text.strip()
+                rating = book.find_element(*self.NOTATION).get_attribute("class").split()[-1].strip()
+                stock = book.find_element(*self.STOCK).text.strip()
+            
+                products.append({
+                    "index": index,
+                    "title": title,
+                    "price": price,
+                    "rating": rating,
+                    "stock": stock
+                })
+            except Exception as e:
+                print(f"Erreur lors de la récupération des informations du livre {index + 1} : {e}")
 
         return products
     

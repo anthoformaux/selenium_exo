@@ -62,7 +62,7 @@ def main():
 
         print("Quantité de livres avec chaque notation :")
         for rating, count in notations.items():
-            print(f"  {rating} étoiles : {count}")
+            print(f"  {rating} étoiles : {count} livre(s)")
 
     except AssertionError as e:
         print(f"AssertionError : {e}")
