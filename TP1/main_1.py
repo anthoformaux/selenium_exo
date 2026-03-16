@@ -18,7 +18,7 @@ def main():
         print("1. Login")
         print("2. Dropdown")
         print("3. Add and Remove")
-        print("4. Toutes les démos")
+        print("4. All demos")
 
         choice = input("\nVotre choix (1-4): ").strip()
 

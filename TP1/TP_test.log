@@ -49,3 +49,123 @@
 2026-03-16 15:33:34,689 - INFO - Page du dropdown ouverte
 2026-03-16 15:33:34,853 - INFO - Option sélectionnée vérifiée avec succès
 2026-03-16 15:33:34,964 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:43:18,786 - INFO - Page de login ouverte
+2026-03-16 15:43:18,816 - INFO - Page de login affichée avec succès
+2026-03-16 15:43:19,616 - INFO - Connexion réussie
+2026-03-16 15:43:19,646 - INFO - Message de succés de connexion vérifié
+2026-03-16 15:43:19,666 - INFO - Bouton de déconnexion visible
+2026-03-16 15:43:20,090 - INFO - Déconnexion réussie
+2026-03-16 15:43:22,416 - INFO - Page du dropdown ouverte
+2026-03-16 15:43:22,559 - INFO - Option sélectionnée vérifiée avec succès
+2026-03-16 15:43:22,680 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:43:30,856 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5528): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/bbdd15e4829386a01d7a3929005ef514/url
+2026-03-16 15:43:38,993 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5528): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/bbdd15e4829386a01d7a3929005ef514
+2026-03-16 15:43:43,033 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5528): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/bbdd15e4829386a01d7a3929005ef514
+2026-03-16 15:44:33,871 - INFO - Page de login ouverte
+2026-03-16 15:44:33,900 - INFO - Page de login affichée avec succès
+2026-03-16 15:44:34,532 - INFO - Connexion réussie
+2026-03-16 15:44:34,565 - INFO - Message de succés de connexion vérifié
+2026-03-16 15:44:34,582 - INFO - Bouton de déconnexion visible
+2026-03-16 15:44:35,013 - INFO - Déconnexion réussie
+2026-03-16 15:44:37,219 - INFO - Page du dropdown ouverte
+2026-03-16 15:44:37,370 - INFO - Option sélectionnée vérifiée avec succès
+2026-03-16 15:44:37,501 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:44:45,778 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5710): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/ac836763cf824d057805ab3d58f7e70b/url
+2026-03-16 15:44:49,854 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5710): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/ac836763cf824d057805ab3d58f7e70b/url
+2026-03-16 15:45:22,370 - INFO - Page de login ouverte
+2026-03-16 15:45:22,402 - INFO - Page de login affichée avec succès
+2026-03-16 15:45:23,138 - INFO - Connexion réussie
+2026-03-16 15:45:23,168 - INFO - Message de succés de connexion vérifié
+2026-03-16 15:45:23,184 - INFO - Bouton de déconnexion visible
+2026-03-16 15:45:23,594 - INFO - Déconnexion réussie
+2026-03-16 15:45:25,800 - INFO - Page du dropdown ouverte
+2026-03-16 15:45:25,951 - INFO - Option sélectionnée vérifiée avec succès
+2026-03-16 15:45:26,060 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:45:34,332 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5851): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/f36ecbaf037aca7f8a23fbf8f1a2d244/url
+2026-03-16 15:45:42,454 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5851): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/f36ecbaf037aca7f8a23fbf8f1a2d244
+2026-03-16 15:45:46,507 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5851): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/f36ecbaf037aca7f8a23fbf8f1a2d244
+2026-03-16 15:45:50,561 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5851): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/f36ecbaf037aca7f8a23fbf8f1a2d244
+2026-03-16 15:46:30,191 - INFO - Page de login ouverte
+2026-03-16 15:46:30,229 - INFO - Page de login affichée avec succès
+2026-03-16 15:46:30,944 - INFO - Connexion réussie
+2026-03-16 15:46:31,028 - INFO - Message de succés de connexion vérifié
+2026-03-16 15:46:31,057 - INFO - Bouton de déconnexion visible
+2026-03-16 15:46:31,525 - INFO - Déconnexion réussie
+2026-03-16 15:46:33,712 - INFO - Page du dropdown ouverte
+2026-03-16 15:46:33,854 - INFO - Option sélectionnée vérifiée avec succès
+2026-03-16 15:46:33,966 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:46:42,152 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6051): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/7bb940c63c33d8b6d1c38b3974c8aa41/url
+2026-03-16 15:46:46,201 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6051): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/7bb940c63c33d8b6d1c38b3974c8aa41/url
+2026-03-16 15:46:50,268 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6051): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/7bb940c63c33d8b6d1c38b3974c8aa41/url
+2026-03-16 15:46:54,323 - ERROR - Une erreur inattendue s'est produite: HTTPConnectionPool(host='localhost', port=6051): Max retries exceeded with url: /session/7bb940c63c33d8b6d1c38b3974c8aa41/url (Caused by NewConnectionError("HTTPConnection(host='localhost', port=6051): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée"))
+2026-03-16 15:46:58,383 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6051): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/7bb940c63c33d8b6d1c38b3974c8aa41
+2026-03-16 15:47:02,413 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6051): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/7bb940c63c33d8b6d1c38b3974c8aa41
+2026-03-16 15:47:06,457 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6051): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/7bb940c63c33d8b6d1c38b3974c8aa41
+2026-03-16 15:48:16,559 - INFO - Page de login ouverte
+2026-03-16 15:48:16,589 - INFO - Page de login affichée avec succès
+2026-03-16 15:48:17,278 - INFO - Connexion réussie
+2026-03-16 15:48:17,310 - INFO - Message de succés de connexion vérifié
+2026-03-16 15:48:17,326 - INFO - Bouton de déconnexion visible
+2026-03-16 15:48:17,749 - INFO - Déconnexion réussie
+2026-03-16 15:48:20,076 - INFO - Page du dropdown ouverte
+2026-03-16 15:48:20,211 - INFO - Option sélectionnée vérifiée avec succès
+2026-03-16 15:48:20,316 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:48:28,644 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6322): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/034b0552e95f2c67fb6ef795f05ff6d1/url
+2026-03-16 15:48:32,692 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6322): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/034b0552e95f2c67fb6ef795f05ff6d1/url
+2026-03-16 15:48:36,768 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6322): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/034b0552e95f2c67fb6ef795f05ff6d1/url
+2026-03-16 15:49:40,526 - INFO - Page de login ouverte
+2026-03-16 15:49:40,553 - INFO - Page de login affichée avec succès
+2026-03-16 15:49:41,127 - INFO - Connexion réussie
+2026-03-16 15:49:41,159 - INFO - Message de succés de connexion vérifié
+2026-03-16 15:49:41,178 - INFO - Bouton de déconnexion visible
+2026-03-16 15:49:41,592 - INFO - Déconnexion réussie
+2026-03-16 15:49:43,802 - INFO - Page du dropdown ouverte
+2026-03-16 15:49:43,969 - INFO - Option sélectionnée vérifiée avec succès
+2026-03-16 15:49:44,078 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:49:46,238 - INFO - Test du dropdown terminé, navigateur fermé
+2026-03-16 15:49:52,291 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=6520): Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée")': /session/4aa8943d6816c3ff9ef1afd80f4fd914/url
+2026-03-16 15:53:38,823 - INFO - Page de login ouverte
+2026-03-16 15:53:38,862 - INFO - Page de login affichée avec succès
+2026-03-16 15:53:39,443 - INFO - Connexion réussie
+2026-03-16 15:53:39,471 - INFO - Message de succés de connexion vérifié
+2026-03-16 15:53:39,485 - INFO - Bouton de déconnexion visible
+2026-03-16 15:53:39,892 - INFO - Déconnexion réussie
+2026-03-16 15:53:42,081 - INFO - Page du dropdown ouverte
+2026-03-16 15:53:42,234 - INFO - Option sélectionnée vérifiée avec succès
+2026-03-16 15:53:42,350 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:53:44,536 - INFO - Page d'ajout/suppression ouverte
+2026-03-16 15:53:44,626 - INFO - 1 Element ajouté 
+2026-03-16 15:53:44,697 - INFO - 2 Element ajouté 
+2026-03-16 15:53:44,757 - INFO - 3 Element ajouté 
+2026-03-16 15:53:44,839 - INFO - 4 Element ajouté 
+2026-03-16 15:53:44,890 - INFO - 5 Element ajouté 
+2026-03-16 15:53:44,899 - ERROR - Erreur d'assertion: Le nombre de bouttons delete affiché est de 0
+2026-03-16 15:54:43,639 - INFO - Page d'ajout/suppression ouverte
+2026-03-16 15:54:43,729 - INFO - 1 Element ajouté 
+2026-03-16 15:54:43,791 - INFO - 2 Element ajouté 
+2026-03-16 15:54:43,850 - INFO - 3 Element ajouté 
+2026-03-16 15:54:43,912 - INFO - 4 Element ajouté 
+2026-03-16 15:54:43,971 - INFO - 5 Element ajouté 
+2026-03-16 15:54:43,981 - INFO - Le nombre de boutons delete affiché est correct
+2026-03-16 15:54:44,089 - INFO - Le nombre de boutons delete affiché après suppression est correct
+2026-03-16 15:54:44,150 - INFO - Un élément a été supprimé
+2026-03-16 15:54:44,211 - INFO - Un élément a été supprimé
+2026-03-16 15:54:44,271 - INFO - Un élément a été supprimé
+2026-03-16 15:54:44,337 - INFO - Un élément a été supprimé
+2026-03-16 15:54:44,349 - INFO - Tous les éléments ont été supprimés avec succès
+2026-03-16 15:55:19,684 - INFO - Page de login ouverte
+2026-03-16 15:55:19,711 - INFO - Page de login affichée avec succès
+2026-03-16 15:55:20,255 - INFO - Connexion réussie
+2026-03-16 15:55:20,289 - INFO - Message de succés de connexion vérifié
+2026-03-16 15:55:20,306 - INFO - Bouton de déconnexion visible
+2026-03-16 15:55:20,722 - INFO - Déconnexion réussie
+2026-03-16 15:55:23,043 - INFO - Page du dropdown ouverte
+2026-03-16 15:55:23,185 - INFO - Option sélectionnée vérifiée avec succès
+2026-03-16 15:55:23,311 - INFO - Changement d'option vérifié avec succès
+2026-03-16 15:55:25,544 - INFO - Page d'ajout/suppression ouverte
+2026-03-16 15:55:25,618 - INFO - 1 Element ajouté 
+2026-03-16 15:55:25,673 - INFO - 2 Element ajouté 
+2026-03-16 15:55:25,736 - INFO - 3 Element ajouté 
+2026-03-16 15:55:25,799 - INFO - 4 Element ajouté 
+2026-03-16 15:55:25,868 - INFO - 5 Element ajouté 
+2026-03-16 15:55:25,877 - ERROR - Erreur d'assertion: Le nombre de bouttons delete affiché est de 0

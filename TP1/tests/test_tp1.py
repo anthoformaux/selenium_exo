@@ -5,14 +5,19 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from pages.login_page import LoginPage
 import logging
-import pages.dropdown_page as dropdown_page
-import pages.add_remove_page as add_remove_page
+from pages.add_remove_page import AddRemovePage
+from pages.dropdown_page import DropdownPage
+from selenium.webdriver.chrome.options import Options
 
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
-
+options = webdriver.ChromeOptions()
 wait = WebDriverWait(driver, 10)
 
+prefs = {
+        "profile.password_manager_leak_detection": False
+    }
+options.add_experimental_option("prefs", prefs)
 
 # Configuration du logging
 logging.basicConfig(
@@ -60,11 +65,10 @@ def login(username,password):
         logger.error(f"Une erreur inattendue s'est produite: {e}")
         return False
     
-    
 
 def test_dropdown():
     try:
-        dropdown = dropdown_page.DropdownPage(driver)
+        dropdown = DropdownPage(driver)
         dropdown.open()
         logger.info("Page du dropdown ouverte")
 
@@ -85,12 +89,10 @@ def test_dropdown():
         logger.error(f"Une erreur inattendue s'est produite: {e}")
         return False
     
-    finally:
-        driver.quit()
 
 def test_add_remove(number):
     try:
-        add_remove = add_remove_page.AddRemovePage(driver)
+        add_remove = AddRemovePage(driver)
         add_remove.open()
         logger.info("Page d'ajout/suppression ouverte")
 
